@@ -1,0 +1,8 @@
+[package]
+name = "my_proc_macro"
+version = "1.0.0"
+authors = ["ranpanf <ranpanf@gmail.com>"]
+
+
+[lib]
+proc-macro = true

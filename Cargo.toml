@@ -1,0 +1,24 @@
+[workspace]
+members=[
+    "my_proc_macro",
+    "non_proc_macro",
+    "etudes",
+    "two_sum",
+    "add_two_numbers",
+    "Longest_Substring_Without_Repeating_Characters",
+    "Median_of_Two_Sorted_Arrays",
+    "Longest_Palindromic_Substring",
+    "ZigZag_Conversion",
+    "Reverse_Integer",
+    "String_to_Integer",
+    "Palindrome_Number",
+    "Regular_Expression_Matching",
+    "n011_Container_With_Most_Water",
+    "n012_Integer_to_Roman",
+    "n013_Roman_to_Integer",
+    "n014_Longest_Common_Prefix",
+    "n015_3Sum",
+    "n016_3Sum_Closest",
+    "n017_Letter_Combinations_of_a_Phone_Number",
+    "n018_4Sum"
+    ]

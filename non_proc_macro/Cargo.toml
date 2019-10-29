@@ -1,0 +1,17 @@
+[package]
+name = "non_proc_macro"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+
+[[bin]]
+name="main"
+
+[lib]
+name="rust_etudes"
+
+[dependencies]
+my_proc_macro={path="../my_proc_macro"}
+
+[features]
+f0 = []
+f1 = []

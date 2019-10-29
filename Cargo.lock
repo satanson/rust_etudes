@@ -1,0 +1,87 @@
+[[package]]
+name = "Longest_Palindromic_Substring"
+version = "0.1.0"
+
+[[package]]
+name = "Longest_Substring_Without_Repeating_Characters"
+version = "0.1.0"
+
+[[package]]
+name = "Median_of_Two_Sorted_Arrays"
+version = "0.1.0"
+
+[[package]]
+name = "Palindrome_Number"
+version = "0.1.0"
+
+[[package]]
+name = "Regular_Expression_Matching"
+version = "0.1.0"
+
+[[package]]
+name = "Reverse_Integer"
+version = "0.1.0"
+
+[[package]]
+name = "String_to_Integer"
+version = "0.1.0"
+
+[[package]]
+name = "ZigZag_Conversion"
+version = "0.1.0"
+
+[[package]]
+name = "add_two_numbers"
+version = "0.1.0"
+
+[[package]]
+name = "etudes"
+version = "0.1.0"
+
+[[package]]
+name = "my_proc_macro"
+version = "1.0.0"
+
+[[package]]
+name = "n011_Container_With_Most_Water"
+version = "0.1.0"
+
+[[package]]
+name = "n012_Integer_to_Roman"
+version = "0.1.0"
+
+[[package]]
+name = "n013_Roman_to_Integer"
+version = "0.1.0"
+
+[[package]]
+name = "n014_Longest_Common_Prefix"
+version = "0.1.0"
+
+[[package]]
+name = "n015_3Sum"
+version = "0.1.0"
+
+[[package]]
+name = "n016_3Sum_Closest"
+version = "0.1.0"
+
+[[package]]
+name = "n017_Letter_Combinations_of_a_Phone_Number"
+version = "0.1.0"
+
+[[package]]
+name = "n018_4Sum"
+version = "0.1.0"
+
+[[package]]
+name = "non_proc_macro"
+version = "0.1.0"
+dependencies = [
+ "my_proc_macro 1.0.0",
+]
+
+[[package]]
+name = "two_sum"
+version = "0.1.0"
+
