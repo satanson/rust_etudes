@@ -1,0 +1,7 @@
+[package]
+name = "n026_Remove_Duplicates_from_Sorted_Array"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+edition = "2018"
+
+[dependencies]

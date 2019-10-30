@@ -3,6 +3,7 @@ members=[
     "my_proc_macro",
     "non_proc_macro",
     "etudes",
+    "common",
     "two_sum",
     "add_two_numbers",
     "Longest_Substring_Without_Repeating_Characters",
@@ -20,5 +21,16 @@ members=[
     "n015_3Sum",
     "n016_3Sum_Closest",
     "n017_Letter_Combinations_of_a_Phone_Number",
-    "n018_4Sum"
+    "n018_4Sum",
+    "n019_Remove_Nth_Node_From_End_of_List",
+    "n020_Valid_Parentheses",
+    "n021_Merge_Two_Sorted_Lists",
+    "n022_Generate_Parentheses",
+    "n023_Merge_k_Sorted_Lists",
+    "n024_Swap_Nodes_in_Pairs",
+    "n025_Reverse_Nodes_in_k_Group",
+    "n026_Remove_Duplicates_from_Sorted_Array",
+    "n027_Remove_Element",
+    "n028_Implement_strStr",
+    "n029_Divide_Two_Integers"
     ]

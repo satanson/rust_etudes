@@ -1,0 +1,8 @@
+[package]
+name = "n025_Reverse_Nodes_in_k_Group"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+edition = "2018"
+
+[dependencies]
+common = {path ="../common"}

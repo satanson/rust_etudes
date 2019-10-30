@@ -1,0 +1,8 @@
+[package]
+name = "n021_Merge_Two_Sorted_Lists"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+edition = "2018"
+
+[dependencies]
+common={path="../common"}

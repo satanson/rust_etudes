@@ -1,0 +1,9 @@
+[package]
+name = "n019_Remove_Nth_Node_From_End_of_List"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+edition = "2018"
+
+[dependencies]
+common={path="../common"}
+

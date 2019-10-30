@@ -35,6 +35,10 @@ name = "add_two_numbers"
 version = "0.1.0"
 
 [[package]]
+name = "common"
+version = "0.1.0"
+
+[[package]]
 name = "etudes"
 version = "0.1.0"
 
@@ -72,6 +76,65 @@ version = "0.1.0"
 
 [[package]]
 name = "n018_4Sum"
+version = "0.1.0"
+
+[[package]]
+name = "n019_Remove_Nth_Node_From_End_of_List"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n020_Valid_Parentheses"
+version = "0.1.0"
+
+[[package]]
+name = "n021_Merge_Two_Sorted_Lists"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n022_Generate_Parentheses"
+version = "0.1.0"
+
+[[package]]
+name = "n023_Merge_k_Sorted_Lists"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n024_Swap_Nodes_in_Pairs"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n025_Reverse_Nodes_in_k_Group"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n026_Remove_Duplicates_from_Sorted_Array"
+version = "0.1.0"
+
+[[package]]
+name = "n027_Remove_Element"
+version = "0.1.0"
+
+[[package]]
+name = "n028_Implement_strStr"
+version = "0.1.0"
+
+[[package]]
+name = "n029_Divide_Two_Integers"
 version = "0.1.0"
 
 [[package]]
