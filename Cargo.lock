@@ -138,6 +138,22 @@ name = "n029_Divide_Two_Integers"
 version = "0.1.0"
 
 [[package]]
+name = "n030_Substring_with_Concatenation_of_All_Words"
+version = "0.1.0"
+
+[[package]]
+name = "n031_Next_Permutation"
+version = "0.1.0"
+
+[[package]]
+name = "n032_Longest_Valid_Parentheses"
+version = "0.1.0"
+
+[[package]]
+name = "n033_Search_in_Rotated_Sorted_Array"
+version = "0.1.0"
+
+[[package]]
 name = "non_proc_macro"
 version = "0.1.0"
 dependencies = [

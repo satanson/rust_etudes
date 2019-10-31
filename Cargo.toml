@@ -32,5 +32,9 @@ members=[
     "n026_Remove_Duplicates_from_Sorted_Array",
     "n027_Remove_Element",
     "n028_Implement_strStr",
-    "n029_Divide_Two_Integers"
+    "n029_Divide_Two_Integers",
+    "n030_Substring_with_Concatenation_of_All_Words",
+    "n031_Next_Permutation",
+    "n032_Longest_Valid_Parentheses",
+    "n033_Search_in_Rotated_Sorted_Array"
     ]

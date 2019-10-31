@@ -1,0 +1,7 @@
+[package]
+name = "n030_Substring_with_Concatenation_of_All_Words"
+version = "0.1.0"
+authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
+edition = "2018"
+
+[dependencies]
