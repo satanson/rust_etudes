@@ -39,5 +39,6 @@ members=[
     "n033_Search_in_Rotated_Sorted_Array",
     "n034_Find_First_and_Last_Position_of_Element_in_Sorted_Array",
     "n035_Search_Insert_Position",
-    "n036_Valid_Sudoku"
+    "n036_Valid_Sudoku",
+    "n037_Sudoku_Solver"
     ]

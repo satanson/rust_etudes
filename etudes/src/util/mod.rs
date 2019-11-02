@@ -128,8 +128,8 @@ pub fn lifetime_bound() {
   println!("{}", r.0);
 }
 
-pub fn diverging_function()  {
-  let number :Option<i32>= None;
+pub fn diverging_function() {
+  let number: Option<i32> = None;
   loop {
     let num: i32 = match number {
       Some(num) => num,
@@ -138,3 +138,21 @@ pub fn diverging_function()  {
     println!("{}", num);
   }
 }
+
+trait TraitA {}
+
+trait TraitB: Sized {}
+
+struct StructA {}
+
+impl TraitA for StructA {}
+
+impl TraitB for StructA {}
+
+pub fn sized_trait_object() {
+  let a: &TraitA = &StructA {};
+  //let b:&TraitB = &StructA{};
+  //println!("{:?}", a);
+  //println!("{:?}", b);
+}
+

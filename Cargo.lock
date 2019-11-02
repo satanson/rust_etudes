@@ -164,6 +164,16 @@ version = "0.1.0"
 [[package]]
 name = "n036_Valid_Sudoku"
 version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
+
+[[package]]
+name = "n037_Sudoku_Solver"
+version = "0.1.0"
+dependencies = [
+ "common 0.1.0",
+]
 
 [[package]]
 name = "non_proc_macro"

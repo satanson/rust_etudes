@@ -1,3 +1,7 @@
+extern crate common;
+
+use common::sudoku;
+
 struct Solution {}
 
 impl Solution {
@@ -6,7 +10,7 @@ impl Solution {
     use std::collections::HashMap;
     let f = |x: char, d: &mut HashMap<char, i32>| -> bool{
       match x {
-        '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' => {
+        '1'...'9' => {
           let v = d.entry(x).or_insert(0);
           v.add_assign(1);
           if *v > 1 {
@@ -21,10 +25,11 @@ impl Solution {
       return true;
     };
     // row
-    for row in &board {
+    for i in 0..9 {
       let mut d: HashMap<char, i32> = std::collections::HashMap::new();
-      for &c in row {
-        if !f(c, &mut d) {
+      for j  in 0..9 {
+        if !f(board[i][j], &mut d) {
+          println!("[{},{}]: row conflict", i, j);
           return false;
         }
       }
@@ -35,6 +40,7 @@ impl Solution {
       let mut d: HashMap<char, i32> = std::collections::HashMap::new();
       for j in 0..9 {
         if !f(board[j][i], &mut d) {
+          println!("[{},{}]: column conflict", j, i);
           return false;
         }
       }
@@ -49,6 +55,7 @@ impl Solution {
         let c1 = j / 3 + 3 * c0;
         let c = board[r1][c1];
         if !f(c, &mut d) {
+          println!("[{},{}]: nine conflict", r1, c1);
           return false;
         }
       }
@@ -69,13 +76,7 @@ fn main() {
     [".", ".", ".", "4", "1", "9", ".", ".", "5"],
     [".", ".", ".", ".", "8", ".", ".", "7", "9"]
   ];
-  let b0: Vec<Vec<char>> = b0.iter().map(
-    |r| {
-      r.iter().map(
-        |&c| {
-          c.as_bytes()[0] as char
-        }).collect()
-    }).collect();
+  let b0: Vec<Vec<char>> = sudoku::sudoku_from(b0);
   let b1 = [
     ["8", "3", ".", ".", "7", ".", ".", ".", "."],
     ["6", ".", ".", "1", "9", "5", ".", ".", "."],
@@ -88,13 +89,48 @@ fn main() {
     [".", ".", ".", ".", "8", ".", ".", "7", "9"]
   ];
 
-  let b1: Vec<Vec<char>> = b1.iter().map(
-    |r| {
-      r.iter().map(
-        |&c| {
-          c.as_bytes()[0] as char
-        }).collect()
-    }).collect();
-  println!("{:?}", Solution::is_valid_sudoku(b0));
-  println!("{:?}", Solution::is_valid_sudoku(b1));
+  let b1: Vec<Vec<char>> = sudoku::sudoku_from(b1);
+
+  let b2 = [
+    ["5", "3", "2", "6", "7", "8", "9", "1", "2"],
+    ["6", "7", "4", "1", "9", "5", "3", "2", "8"],
+    ["1", "9", "8", "3", "4", "2", "5", "6", "7"],
+    ["8", "5", "9", "7", "6", "1", "4", "2", "3"],
+    ["4", "2", "6", "8", "5", "3", "7", "9", "1"],
+    ["7", "1", "3", "9", "2", "4", "8", "5", "6"],
+    ["9", "6", "1", "5", "3", "7", "2", "8", "4"],
+    ["2", "8", "7", "4", "1", "9", "6", "3", "5"],
+    ["3", "4", "5", "2", "8", "6", "1", "7", "9"]
+  ];
+
+  let b2: Vec<Vec<char>> = sudoku::sudoku_from(b2);
+  let b3 = [
+    ['5', '3', '4', '6', '7', '8', '9', '1', '2'],
+    ['6', '7', '2', '1', '9', '5', '3', '4', '8'],
+    ['1', '9', '8', '3', '4', '2', '5', '6', '7'],
+    ['8', '5', '9', '7', '6', '1', '4', '2', '3'],
+    ['4', '2', '6', '8', '5', '3', '7', '9', '1'],
+    ['7', '1', '3', '9', '2', '4', '8', '5', '6'],
+    ['9', '6', '1', '5', '3', '7', '2', '8', '4'],
+    ['2', '8', '7', '4', '1', '9', '6', '3', '5'],
+    ['3', '4', '5', '2', '8', '6', '1', '7', '9']
+  ];
+  let b3 = b3.iter().map(|&x|x.iter().map(|x|*x).collect::<Vec<char>>()).collect::<Vec<Vec<char>>>();
+  let b4 = [
+    ['5', '1', '9', '7', '4', '8', '6', '3', '2'],
+    ['7', '8', '3', '6', '5', '2', '4', '1', '9'],
+    ['4', '2', '6', '1', '3', '9', '8', '7', '5'],
+    ['3', '5', '7', '9', '8', '6', '2', '4', '1'],
+    ['2', '6', '4', '3', '1', '7', '5', '9', '8'],
+    ['1', '9', '8', '5', '2', '4', '3', '6', '7'],
+    ['9', '7', '5', '8', '6', '3', '1', '2', '4'],
+    ['8', '3', '2', '4', '9', '1', '7', '5', '6'],
+    ['6', '4', '1', '2', '7', '5', '9', '8', '3']
+  ];
+
+  let b4 = b4.iter().map(|&x|x.iter().map(|x|*x).collect::<Vec<char>>()).collect::<Vec<Vec<char>>>();
+  //println!("{:?}", Solution::is_valid_sudoku(b0));
+  //println!("{:?}", Solution::is_valid_sudoku(b1));
+  //println!("{:?}", Solution::is_valid_sudoku(b2));
+  println!("{:?}", Solution::is_valid_sudoku(b4));
 }

@@ -29,3 +29,8 @@ fn lifetime_bound_test() {
 fn diverging_function_test() {
   util::diverging_function();
 }
+
+#[test]
+fn sized_trait_object_test(){
+  util::sized_trait_object();
+}
