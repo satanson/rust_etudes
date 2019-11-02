@@ -176,6 +176,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "n038_Count_and_Say"
+version = "0.1.0"
+
+[[package]]
+name = "n039_Combination_Sum"
+version = "0.1.0"
+
+[[package]]
 name = "non_proc_macro"
 version = "0.1.0"
 dependencies = [
