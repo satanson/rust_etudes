@@ -39,6 +39,10 @@ name = "common"
 version = "0.1.0"
 
 [[package]]
+name = "conditional_compiling"
+version = "0.1.0"
+
+[[package]]
 name = "etudes"
 version = "0.1.0"
 
@@ -181,6 +185,50 @@ version = "0.1.0"
 
 [[package]]
 name = "n039_Combination_Sum"
+version = "0.1.0"
+
+[[package]]
+name = "n040_Combination_Sum_II"
+version = "0.1.0"
+
+[[package]]
+name = "n041_First_Missing_Positive"
+version = "0.1.0"
+
+[[package]]
+name = "n042_Trapping_Rain_Water"
+version = "0.1.0"
+
+[[package]]
+name = "n043_Multiply_Strings"
+version = "0.1.0"
+
+[[package]]
+name = "n044_Wildcard_Matching"
+version = "0.1.0"
+
+[[package]]
+name = "n045_Jump_Game_II"
+version = "0.1.0"
+
+[[package]]
+name = "n046_Permutations"
+version = "0.1.0"
+
+[[package]]
+name = "n047_Permutations_II"
+version = "0.1.0"
+
+[[package]]
+name = "n048_Rotate_Image"
+version = "0.1.0"
+
+[[package]]
+name = "n049_Group_Anagrams"
+version = "0.1.0"
+
+[[package]]
+name = "n050_Pow_x_n"
 version = "0.1.0"
 
 [[package]]

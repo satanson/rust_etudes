@@ -3,6 +3,7 @@ members=[
     "my_proc_macro",
     "non_proc_macro",
     "etudes",
+    "conditional_compiling",
     "common",
     "two_sum",
     "add_two_numbers",
@@ -42,5 +43,16 @@ members=[
     "n036_Valid_Sudoku",
     "n037_Sudoku_Solver",
     "n038_Count_and_Say",
-    "n039_Combination_Sum"
+    "n039_Combination_Sum",
+    "n040_Combination_Sum_II",
+    "n041_First_Missing_Positive",
+    "n042_Trapping_Rain_Water",
+    "n043_Multiply_Strings",
+    "n044_Wildcard_Matching",
+    "n045_Jump_Game_II",
+    "n046_Permutations",
+    "n047_Permutations_II",
+    "n048_Rotate_Image",
+    "n049_Group_Anagrams",
+    "n050_Pow_x_n"
     ]

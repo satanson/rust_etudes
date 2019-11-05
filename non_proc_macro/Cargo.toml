@@ -5,6 +5,9 @@ authors = ["ranpanfeng <ranpanfeng@bytedance.com>"]
 
 [[bin]]
 name="main"
+[[bin]]
+name="hello_world"
+path="src/foo/bar/deadbeef/hello_world.rs"
 
 [lib]
 name="rust_etudes"
