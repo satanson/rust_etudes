@@ -232,6 +232,10 @@ name = "n050_Pow_x_n"
 version = "0.1.0"
 
 [[package]]
+name = "n051_N_Queens"
+version = "0.1.0"
+
+[[package]]
 name = "non_proc_macro"
 version = "0.1.0"
 dependencies = [

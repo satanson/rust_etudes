@@ -54,5 +54,6 @@ members=[
     "n047_Permutations_II",
     "n048_Rotate_Image",
     "n049_Group_Anagrams",
-    "n050_Pow_x_n"
+    "n050_Pow_x_n",
+    "n051_N_Queens"
     ]
